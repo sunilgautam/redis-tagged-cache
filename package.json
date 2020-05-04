@@ -1,0 +1,34 @@
+{
+  "name": "redis-tagged-cache",
+  "version": "0.0.1",
+  "description": "Cache with tags support",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilgautam/redis-tagged-cache.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunilgautam/redis-tagged-cache/issues"
+  },
+  "homepage": "https://github.com/sunilgautam/redis-tagged-cache#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  }
+}
