@@ -30,5 +30,8 @@
   },
   "lint-staged": {
     "*.js": "eslint"
+  },
+  "dependencies": {
+    "ioredis": "^4.16.3"
   }
 }
